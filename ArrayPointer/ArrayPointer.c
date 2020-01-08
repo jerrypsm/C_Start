@@ -21,5 +21,8 @@ int main() {
 			printf("--> 불일치\n");
 		}
 	}
+	
+	printf("Github Test");
+
 	return 0;
 }
