@@ -10,9 +10,6 @@ int main() {
 	printf("%p\n", arr[1]);
 	printf("%p\n", &arr[1][0]);
 
-	printf("%d \n", sizeof(arr));
-	printf("%d \n", sizeof(arr[0]));
-
 	//test
 	printf("test \n");
 	for (int i = 0; i < 2; i++) {

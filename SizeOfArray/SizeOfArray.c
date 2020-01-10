@@ -1,18 +1,16 @@
 ﻿#include <stdio.h>
 
 int main() {
-	int arr[3] = { 1,2,3, };
-	int (*parr)[3] = &arr;
+	int arr[2][3];
 
-	printf("arr[1] : %d \n", arr[1]);
-	printf("parr[1] : %d \n", (*parr)[1]);
-
-	//test
-	printf("arr : %p \n", arr);
-	printf("arr[0] : %p \n", &arr[0]);
-
-	printf("arr : %p \n", arr);
-	printf("parr : %p \n", parr);
+	/*
+	bug fix - errorcode : C6328
+	원문)
+	printf("%d \n", sizeof(arr));
+	printf("%d \n", sizeof(arr[0]));
+	*/
+	printf("%llu \n", sizeof(arr)); //%llu - unsigned long long
+	printf("%llu \n", sizeof(arr[0]));
 
 	return 0;
 }
