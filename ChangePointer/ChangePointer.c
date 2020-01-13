@@ -1,6 +1,6 @@
 ﻿#include <stdio.h>
 
-int pswap();
+int pswap(int **ppa, int **ppb);
 int main() {
 	int a = 5;
 	int b = 10;
