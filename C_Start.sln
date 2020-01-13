@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddNumber2", "AddNumber2\Ad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxNumber", "MaxNumber\MaxNumber.vcxproj", "{371B0B30-07C5-40D4-8944-74D4FCEEE5C9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwapPointer", "ChangePointer\ChangePointer.vcxproj", "{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{371B0B30-07C5-40D4-8944-74D4FCEEE5C9}.Release|x64.Build.0 = Release|x64
 		{371B0B30-07C5-40D4-8944-74D4FCEEE5C9}.Release|x86.ActiveCfg = Release|Win32
 		{371B0B30-07C5-40D4-8944-74D4FCEEE5C9}.Release|x86.Build.0 = Release|Win32
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Debug|x64.ActiveCfg = Debug|x64
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Debug|x64.Build.0 = Debug|x64
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Debug|x86.Build.0 = Debug|Win32
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Release|x64.ActiveCfg = Release|x64
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Release|x64.Build.0 = Release|x64
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Release|x86.ActiveCfg = Release|Win32
+		{FC9A22F1-B19F-4E22-A9DB-DC1D0BF732F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
